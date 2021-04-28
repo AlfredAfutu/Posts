@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:orientation="horizontal"
+    android:padding="@dimen/card_margin">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/placeholder_text_height"
+        android:layout_marginEnd="@dimen/body_margin"
+        android:layout_marginTop="5dp"
+        android:layout_weight="0.5"
+        android:background="@color/placeholder_background" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/placeholder_text_height"
+        android:layout_marginStart="@dimen/body_margin"
+        android:layout_marginTop="5dp"
+        android:layout_weight="0.5"
+        android:background="@color/placeholder_background" />
+
+</LinearLayout>
